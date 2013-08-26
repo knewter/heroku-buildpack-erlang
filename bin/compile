@@ -64,6 +64,6 @@ if [ -f ${bpdir}/opt/otp.sh ]; then
   cp ${bpdir}/opt/otp.sh ${PROFILE}
 fi
 
-echo "export PATH=\"\$HOME/otp/bin:\$PATH\"" > $BUILD_DIR/.profile.d/erlang.sh
+echo "export PATH=\"\$HOME/otp/bin:\$PATH\"" > /app/.profile.d/erlang.sh
 
 echo "-----> Build succeeded"
